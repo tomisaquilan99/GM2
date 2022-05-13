@@ -1,0 +1,152 @@
+.section-hero{
+    min-height: 1024px;
+    background-image:url(../../Images/Background\ Image.jpg);
+}    
+
+
+.container1{
+    display: flex;
+    padding-top: 216px;
+    justify-content: space-between;
+}
+
+.borde{
+    display: flex;
+    width: 570px;
+    height: 535px;
+    border: 18px solid #7572FF;
+    position: relative;
+    left: 50px;
+    margin-top: 105px;
+}
+
+.cuadro-downland{
+    width: 570px;
+    height: 432px;
+    background-color: white;
+    position: absolute;
+    top:33px;
+    right: 32px;
+    padding: 40px 0px 40px 30px;
+
+}
+
+.cuadro-downland span{
+    color: var(--grey);
+}
+
+.img-telefono{
+    display: flex;
+    margin-right: 80px;
+}
+
+.text1{
+    padding-right: 0px;
+    display: flex;
+    margin-right: 21px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.text1 h2{
+    color: var(--royal-blue);
+}
+
+.text2{
+    display: flex;
+    margin-right: 53px;
+    margin-bottom: 52px;
+}
+
+.text2 p{
+    color: var(--grey);
+}
+
+.text3{
+    display: flex;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.botones-descargas{
+    display: flex;
+    gap: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .container-page{
+        width: 93%;
+    }
+
+    .container1{
+        align-items: center;
+    }
+
+    .borde{
+        width: 100%;
+        border: 10px solid var(--very-light-blue);
+        left: 14px;
+        margin-top: 0px;
+        max-height: 358px;
+        max-width: 323px;
+        margin-bottom: 40px;
+    }
+
+    .cuadro-downland h2{
+        font-size: 25px;
+    }
+
+    .cuadro-downland h5{
+        font-size: 20px;
+    }
+
+    .cuadro-downland{
+        width: 100%;
+        min-width: 323px;
+        max-height: 318px;
+        top:10px;
+        right: 16px;
+        padding: 30px 12px 21px 13px;
+    }
+
+    .text1{
+        margin-bottom: 18px;
+        margin-right: 0;
+    }
+
+    .text2{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .text3{
+        margin-bottom: 16px;
+    }
+
+    .text-hidden{
+        display: none;
+    }
+
+    .contacts{
+        display: none;
+    }
+
+    .botones-descargas{
+        gap:10px;
+    }
+
+    .downland-button{
+        max-width: 110px;
+        max-height: 34px;
+    }
+
+    .container1{
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+
+    .img-telefono{
+        max-width: 250px;
+        margin-right: 0px;
+    }
+}

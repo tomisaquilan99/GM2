@@ -1,0 +1,63 @@
+/**
+ * ======================================== 
+ * Typography
+ * ========================================
+ */
+
+p{
+    font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+span{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+h2{
+    font-size: 48.83px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: var(--black);
+}
+
+h4{
+    font-size: 31.25px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+h5{
+    font-size: 25px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+h6{
+    font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+.white{
+	color: var(--white)
+}
+
+.black{
+	color: var(--black);
+}
+
+.royal-blue{
+	color: var(--royal-blue);
+}
+
+.grey{
+	color:var(--grey);
+}

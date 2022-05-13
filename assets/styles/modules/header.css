@@ -1,0 +1,164 @@
+header{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+}
+
+.contact-1 {
+    margin-right: 49.25px;
+    display: flex;
+}
+
+.contact-2 {
+    display: flex;
+}
+
+.contact-1 p{
+    padding-left: 19.5px;
+    color: var(--white);
+}
+
+.contact-2 p{
+    padding-left: 20.25px;
+    color: var(--white);
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primer-bloque-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.segundo-bloque-contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 32.8px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 15px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.primer-bloque-categories{
+    display: flex;
+    margin-left: 52px;
+}
+
+.segundo-bloque-categories{
+    display: flex;
+}
+
+.list1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:39px;
+}
+
+
+.list2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 42px;
+}
+
+.home h6{
+    text-decoration: underline;
+    color: var(--royal-blue);
+}
+
+.downland{
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--royal-blue);
+    margin: 5px 5px 5px 42px;
+    padding: 12px 15px 8px 16px;
+}
+
+.downland h6{
+    color: var(--white);
+}
+
+.apolly{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    position: relative;
+    padding: 31px 17px 31px 16px;
+    bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-apolly{
+    display: flex;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    header{
+        width: 100%;
+    }
+    
+    .categories{
+        width: 100%;
+        max-height: 40px;
+        align-items: center;
+    }
+
+    .primer-bloque-categories{
+        margin-left: 12px;
+    }
+
+    .list1{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        width: 18px;
+        height: 16px;
+    }
+
+    .list2{
+        display: none;
+    }
+
+    .apolly{
+        width: 100px;
+        height: 60px;
+        position: inherit;
+        margin-left: 35px;
+    }
+    
+    .downland{
+        height: 34px;
+        margin-right: 3px;
+        margin-left: 0px;
+        padding: 12px 6px;
+    }
+    
+    .downland h6{
+        font-size: 10px;
+    }
+
+    .container-page{
+        width: 93%;
+    }
+}

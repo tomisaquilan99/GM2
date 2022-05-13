@@ -1,0 +1,123 @@
+.section-about{
+    padding-top: 120px;
+}
+
+.about-our-app{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.lorem1{
+    display: flex;
+    text-align: center;
+    margin: 0px 275px;
+}
+
+.lorem1 span{
+    color: var(--black);
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 138px;
+}
+
+.about-container-tel{
+    margin-left: 17px;
+}
+
+.box{
+    position: relative;
+    width: 570px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.box span{
+    color: var(--grey);
+}
+
+.box:last-child{
+    margin-bottom: 0;
+}
+
+.logo-checkbox{
+    position: absolute;
+    left: 20px;
+    top: 32px;
+    filter: invert(34%) sepia(75%) saturate(3829%) hue-rotate(231deg) brightness(94%) contrast(93%);
+}
+
+.about-container-checkbox h6{
+    text-transform: uppercase;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-container-checkbox p{
+    padding-left: 59px;
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: gray;
+}
+
+@media screen and (max-width: 767px) {
+    .container-page{
+        width: 93%;
+    }
+
+    .about-our-app h4{
+        font-size: 25px;
+    }
+
+    .section-about{
+        padding-top: 60px;
+    }
+
+    .text-hidden{
+        display: none;
+    }
+
+    .lorem1{
+        margin: 0px 20px 0px 23px;
+    }
+
+    .box{
+        max-width: 343px;
+        max-height: 110px;
+    }
+
+    .box h6{
+        padding-top: 18px;
+    }
+
+    .box p{
+        padding-top: 3px;
+    }
+
+    .logo-checkbox{
+        top: 20px;
+    }
+
+    .text-hidden{
+        display: none;
+    }
+
+    .about-container{
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+
+    .about-container-tel{
+        margin-bottom: 75px;
+    }
+}

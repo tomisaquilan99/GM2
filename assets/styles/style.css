@@ -1,0 +1,20 @@
+/**
+ * ======================================== 
+ * Styles
+ * ========================================
+ */
+
+/* Core */
+@import 'core/variables.css';
+@import 'core/reboot.css';
+@import 'core/typography.css';
+@import 'core/global.css';
+
+/* Modules */
+
+@import 'modules/header.css';
+@import 'modules/hero.css';
+@import 'modules/about.css';
+@import 'modules/app-featyres.css';
+@import 'modules/team.css';
+@import 'modules/footer.css';
