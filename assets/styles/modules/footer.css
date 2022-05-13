@@ -315,3 +315,19 @@
         margin-right: 20px;
     }
 }
+
+@media screen and (min-width: 1441px){
+    .footer-column3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    }
+
+    .footer-input{
+        width: 420px;
+    }
+
+    .mail-phone-box{
+        left: 936px;
+    }
+}
