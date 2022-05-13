@@ -121,3 +121,10 @@ span{
         display: none;
     }
 }
+
+@media (max-width: 425px) and (min-width: 376px)
+{
+    .foto-perfil{
+        left: 100px;
+    }
+}

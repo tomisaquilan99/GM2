@@ -195,6 +195,17 @@
     left: 18px;
 }
 
+@media (max-width: 767px) and (min-width: 376px)
+{
+    .mail-phone-box{
+        display: none;
+    }
+
+    .mail-phone-box-mobile{
+        left: 41px;
+    }
+}
+
 @media screen and (max-width: 767px){
     .container-page{
         width: 93%;
