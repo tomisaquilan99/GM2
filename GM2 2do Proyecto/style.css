@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container-page{
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    background-color:#fcb7af;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+h2{
+    padding: 10px 0px;
+}
+
+.menu-ejercicios{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.container-ejs{
+    width: 90%;
+    margin: auto;
+}
+
+.form-content{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+.input{
+    display: flex;
+}
+
+.input-button{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.resultados{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+textarea,
+.menu-ejercicios{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
