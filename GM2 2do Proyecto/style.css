@@ -56,4 +56,19 @@ textarea,
 .menu-ejercicios{
     border: 1px solid gray;
     border-radius: 5px;
+    padding: 5px;
+}
+
+.input-2{
+    display: none;
+    margin-bottom: 30px;
+}
+
+.ej-info{
+    margin-bottom: 10px;
+}
+
+.ej1-input2-info{
+    display: none;
+    margin-bottom: 10px;
 }
