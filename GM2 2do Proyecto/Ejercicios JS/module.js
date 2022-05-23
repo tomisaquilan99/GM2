@@ -1,8 +1,8 @@
-import { adicion } from './ej1';
-import { resta } from './ej1';
-import { hayParOPareja } from '.ej1';
-import { esPalindromo } from 'ej3';
-import { convertirARomano } from 'ej4';
+import { adicion } from './ej1.js';
+import { resta } from './ej1.js';
+import { hayParOPareja } from './ej2.js';
+import { esPalindromo } from './ej3.js';
+import { convertirARomano } from './ej4.js';
 
 
 const resultados = document.getElementById("resultados");
