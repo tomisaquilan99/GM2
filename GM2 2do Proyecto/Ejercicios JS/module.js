@@ -1,3 +1,10 @@
+import { adicion } from './ej1';
+import { resta } from './ej1';
+import { hayParOPareja } from '.ej1';
+import { esPalindromo } from 'ej3';
+import { convertirARomano } from 'ej4';
+
+
 const resultados = document.getElementById("resultados");
 const inputAdd = document.getElementById("input-2");
 const listaEjercicios = document.getElementById("ejercicios")
@@ -92,108 +99,4 @@ function transformInputToNumbersArray (input){
         numberString.push(Number(el));
     }
     return numberString;
-}
-
-/* Ejercicio 1*/
-
-function adicion(array, numero){
-    let arrayToNumber = "";
-    for(num of array)
-    {
-        arrayToNumber += num.toString();
-    }
-
-    arrayToNumber = (Number(arrayToNumber)+numero);
-    console.log(arrayToNumber);
-    arrayToNumber = arrayToNumber.toString().split("").map(elem=>Number(elem));
-    console.log(arrayToNumber);
-
-    return arrayToNumber
-}
-
-function resta(array, numero){
-    let arrayToNumber = "";
-    for(num of array)
-    {
-        arrayToNumber += num.toString();
-    }
-
-    (Number(arrayToNumber)-numero) < 0 ? arrayToNumber=[0] : arrayToNumber = (Number(arrayToNumber)-numero).toString().split("").map(elem=>Number(elem));
-
-    return arrayToNumber
-}
-
-/* Ejercicio 2*/
-
-function hayParOPareja(array){
-    let pares=[];
-    let b=false;
-        for(num of array)
-        {
-            if(num%2===0 && num!==0)
-            {
-                pares.push(num);
-            }
-        }
-        if(pares.length===0)
-        {
-            return b;
-        }
-        for(let m=0;m<array.length;m++)
-        {
-            for(let j=m+1;j<array.length;j++)
-            {
-                for(let k=0;k<pares.length;k++)
-                {
-                    if(array[m] + array[j] === pares[k])
-                    b=true;
-                }
-            }
-        }
-    return b;
-}
-
-/* Ejercicio 3*/
-
-function esPalindromo(array){
-let arrayInvertido = (array).split("").reverse().join("");
-let b;
-array === arrayInvertido ? b = true : b = false;
-return b;
-}
-
-/* Ejercicio 4*/
-
-function convertirARomano(num) { 
-let romanos = {
-    M:1000,
-    CM:900,
-    D:500,
-    CD:400,
-    C:100,
-    XC:90,
-    L:50,
-    XL:40,
-    X:10,
-    IX:9,
-    V:5,
-    IV:4,
-    I:1};
-let numARomano = '',i;
-if(num>3999)
-{
-    return "ERROR (excede máximo en numeros romanos (4000))";
-}
-else
-{
-for ( i in romanos ) 
-{ 
-    while ( num >= romanos[i] ) 
-    {
-        numARomano += i; 
-        num -= romanos[i];
-    } 
-} 
-}
-return numARomano; 
 }
